@@ -9,6 +9,9 @@ import img6 from '../Gallery/img/img6.jpg'
 import img7 from '../Gallery/img/img7.jpg'
 import bg from '../Gallery/img/bg.jpeg'
 import Gellery from './Gallery';
+
+
+
 const AllGallery = () => {
     const images = [
         {
@@ -37,35 +40,35 @@ const AllGallery = () => {
         },]
     return (
         <div className='justify-center text-center'>
-        <div className=" bg-no-repeat hero   "
-            style={
-                {
-                    background: `url(${bg})`,
-                    padding: 20,
-                    height: '100%',
+            <div className=" bg-no-repeat hero   "
+                style={
+                    {
+                        background: `url(${bg})`,
+                        padding: 20,
+                        height: '100%',
 
-                }
-            }>
-            <div className='justify-center text-center '>
-                <h2 className='home-gallery'>Gallery</h2>
-                <p className='text-center gallery-home active w-44 mb-5 mx-auto font-bold text-lg'>Hospital Images </p>
-                <div className='lg:flex sm:grid mr-6'>
-                    <div>
-                        <img className=' hover:scale-110 transition duration-300 ease-in-out  sm:h-48 sm:w-64 ' style={{height:470 , borderRadius : 10}} src={img1}></img>
+                    }
+                }>
+                <div className='justify-center text-center '>
+                    <h2 className='home-gallery'>Gallery</h2>
+                    <p className='text-center gallery-home active w-44 mb-5 mx-auto font-bold text-lg'>Hospital Images </p>
+                    <div className='lg:flex sm:grid mr-6'>
+                        <div>
+                            <img className=' hover:scale-110 transition duration-300 ease-in-out  sm:h-48 sm:w-64 ' style={{ height: 470, borderRadius: 10 }} src={img1}></img>
+                        </div>
+                        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-5 '>
+                            {
+                                images.map(imag => <Gellery
+                                    key={imag._id}
+                                    imag={imag}
+                                ></Gellery>)
+                            }</div>
                     </div>
-                    <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-5 '>
-                        {
-                            images.map(imag => <Gellery
-                                key={imag._id}
-                                imag={imag}
-                            ></Gellery>)
-                        }</div>
+                    <button className="btn btn-active bg-blue-800 text-white  justify-end text-center  mt-3 mb-8" >View All</button>
                 </div>
-                <button className="btn btn-active bg-blue-800 text-white  justify-end text-center  mt-3 mb-8" >View All</button>
-            </div>
 
+            </div>
         </div>
-    </div>
     );
 };
 
