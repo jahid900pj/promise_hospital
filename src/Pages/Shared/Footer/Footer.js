@@ -52,7 +52,6 @@ const Footer = () => {
                     <a href="/" className="link link-hover">Burundi</a>
                     <a href="/" className="link link-hover">Tanzania</a>
                     <a href="/" className="link link-hover">Uganda</a>
-                    <a href="/" className="link">Load More</a>
                     <span className="footer-title">Talk to us</span>
                     <a href="/" className="link link-hover">Send Enquiry</a>
                     <a href="/" className="link link-hover">Request A Callback</a>
