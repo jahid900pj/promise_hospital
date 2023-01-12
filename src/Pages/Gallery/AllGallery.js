@@ -1,13 +1,13 @@
 import React from 'react';
 import './Gallery.css';
-import img1 from '../img/img1.jpg'
-import img2 from '../img/img2.jpg'
-import img3 from '../img/img3.jpg'
-import img4 from '../img/img4.jpg'
-import img5 from '../img/img5.jpg'
-import img6 from '../img/img6.jpg'
-import img7 from '../img/img7.jpg'
-import bg from '../img/bg.jpeg'
+import img1 from '../Gallery/img/img1.jpg'
+import img2 from '../Gallery/img/img2.jpg'
+import img3 from '../Gallery/img/img3.jpg'
+import img4 from '../Gallery/img/img4.jpg'
+import img5 from '../Gallery/img/img5.jpg'
+import img6 from '../Gallery/img/img6.jpg'
+import img7 from '../Gallery/img/img7.jpg'
+import bg from '../Gallery/img/bg.jpeg'
 import Gellery from './Gallery';
 const AllGallery = () => {
     const images = [

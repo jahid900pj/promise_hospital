@@ -1,6 +1,6 @@
 import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import AllGallery from './Gellery/AllGallery';
+import AllGallery from './Pages/Gallery/AllGallery';
 
 function App() {
   return (
