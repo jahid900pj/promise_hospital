@@ -5,14 +5,11 @@ const Footer = () => {
         <div>
             <footer className="footer p-10 ">
                 <div>
-                    <span className="footer-title">About Manipal</span>
+                    <span className="footer-title">About Promise Hospital</span>
                     <a href="/" className="link link-hover">About Us</a>
                     <a href="/" className="link link-hover">Leadership</a>
                     <a href="/" className="link link-hover">Doctors</a>
                     <a href="/" className="link link-hover">Specialities</a>
-                    <div>
-                        <h3>ACCREDITATIONS</h3>
-                    </div>
                 </div>
                 <div>
                     <span className="footer-title">Our Offerings</span>
@@ -22,24 +19,19 @@ const Footer = () => {
                     <a href="/" className="link link-hover">Worldwide Insurance Partners</a>
                     <a href="/" className="link link-hover">Accommodation and Transport</a>
                     <a href="/" className="link link-hover">Arrival Processes</a>
-                    <div>
-                        <span className='footer-title'>Other Information</span> <br />
-                        <a href="/">Feedback</a> <br />
-                        <a href="/">Media and Blogs</a>
-                    </div>
                 </div>
                 <div>
                     <span className="footer-title">Our Locations</span>
-                    <a href="/" className="link link-hover">Old Airport Road - Bengaluru</a>
-                    <a href="/" className="link link-hover">Delhiy</a>
-                    <a href="/" className="link link-hover">Goa</a>
-                    <a href="/" className="link link-hover">Gurugram</a>
-                    <a href="/" className="link link-hover">Hebbal - Bengaluru</a>
-                    <a href="/" className="link link-hover">Yeshwanthpur - Bengaluru</a>
+                    <a href="/" className="link link-hover">Old Airport Road - Dhaka</a>
+                    <a href="/" className="link link-hover">Chittagong</a>
+                    <a href="/" className="link link-hover">Rajshahi</a>
+                    <a href="/" className="link link-hover">Khulna</a>
+                    <a href="/" className="link link-hover">Barishal</a>
+                    <a href="/" className="link link-hover">Sylhet</a>
                 </div>
                 <div>
                     <span className="footer-title">Centre of Excellence</span>
-                    <a href="/" className="link link-hover">Cardiology and Cardiac surgery</a>
+                    <a href="/" className="link link-hover">Cardiology and Cardiac Surgery</a>
                     <a href="/" className="link link-hover">Cardiothoracic Vascular Surgery</a>
                     <a href="/" className="link link-hover">Comprehensive Cancer Care</a>
                     <a href="/" className="link link-hover">Gastrointestinal Sciences</a>
@@ -55,7 +47,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="footer-title">International Contact Centers</span>
-                    <a href="/" className="link link-hover">Kenya</a>
+                    <a href="/" className="link link-hover">India</a>
                     <a href="/" className="link link-hover">Nigeria</a>
                     <a href="/" className="link link-hover">Burundi</a>
                     <a href="/" className="link link-hover">Tanzania</a>
@@ -63,7 +55,7 @@ const Footer = () => {
                     <a href="/" className="link">Load More</a>
                     <span className="footer-title">Talk to us</span>
                     <a href="/" className="link link-hover">Send Enquiry</a>
-                    <a href="/" className="link link-hover">Request a callback</a>
+                    <a href="/" className="link link-hover">Request A Callback</a>
                     <a href="/" className="link link-hover">Talk to our COO/Feedback</a>
                     <a href="/" className="link link-hover">Contact Us</a>
                 </div>
@@ -77,12 +69,12 @@ const Footer = () => {
                         <a href='/'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
                     </div>
                     <div>
-                        <p>Copyright © 2021 Manipal Hospitals - All Rights Reserved</p>
+                        <p>Copyright © 2023 Promise Hospital - All Rights Reserved</p>
                     </div>
                 </div>
                 <div className="md:place-self-center md:justify-self-end">
                     <div className="grid grid-flow-col gap-4">
-                        <a href="/">CSR POLICY</a>|<a href="/">DISCLIMER</a>|<a href="/">PRIVACY</a>|<span>T&C</span>
+                        <a href="/">CSR POLICY</a>|<a href="/">DISCLAIMER</a>|<a href="/">PRIVACY</a>|<a href="/">T&C</a>
                     </div>
                 </div>
             </footer>
